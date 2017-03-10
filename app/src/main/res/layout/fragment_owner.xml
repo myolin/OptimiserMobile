@@ -1,0 +1,286 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myolin.optimisermobile.OwnerFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/FirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/FirstNameLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/LastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FirstNameLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/LastNameLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/FirstName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LastNameLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/FirstName2Label"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/LastName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FirstName2Label"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/LastName2Label"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/HouseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LastName2Label"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/HouseNumberLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/Street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HouseNumberLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/StreetLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/AptNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/StreetLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/AptNumberLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/State"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AptNumberLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/StateLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/StateLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/CityLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/Zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CityLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ZipLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/HomePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ZipLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/HomePhoneLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/Email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HomePhoneLabel"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/Email1Label"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/Notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Email1Label"
+            android:layout_alignStart="@+id/FirstNameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/NotesLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/FirstNameLabel"
+            android:layout_toEndOf="@+id/FirstNameLabel"
+            android:layout_marginStart="60dp"
+            android:id="@+id/FirstName"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/LastNameLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/LastName"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/FirstName2Label"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/FirstName2"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/LastName2Label"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/LastName2"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/HouseNumberLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/HouseNumber"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/StreetLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/Street"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/AptNumberLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/AptNumber"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/StateLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/State"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/CityLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/City"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/ZipLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/Zip"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/HomePhoneLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/HomePhone"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_alignBottom="@+id/Email1Label"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/Email1"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="150sp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_alignTop="@+id/NotesLabel"
+            android:layout_alignStart="@+id/FirstName"
+            android:id="@+id/Notes"
+            android:textSize="@dimen/standard_text_size"
+            android:maxLines="20"
+            android:background="@drawable/border" />
+    </RelativeLayout>
+</ScrollView>

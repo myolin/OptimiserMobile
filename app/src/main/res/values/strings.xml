@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">OptimiserMobile</string>
+
+    <string name="ui_tabname_auditor">Auditor</string>
+    <string name="ui_tabname_owner">Owner</string>
+    <string name="ui_tabname_building">Building</string>
+    <string name="ui_tabname_windows">Windows</string>
+    <string name="ui_tabname_doors">Doors</string>
+    <string name="ui_tabname_crawl">Crawl</string>
+    <string name="ui_tabname_basement">Basement</string>
+
+    <!-- Label for Auditor -->
+    <string name="AuditorInspector">Auditor</string>
+    <string name="AuditorPhone">Phone</string>
+    <string name="AuditorEmail">Email</string>
+    <string name="ProjectID">Project ID</string>
+    <string name="Date">Date</string>
+
+    <!-- Label for Owner -->
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="FirstName2">First Name 2</string>
+    <string name="LastName2">Last Name 2</string>
+    <string name="HouseNumber">Owner Street No</string>
+    <string name="Street">Owner Street</string>
+    <string name="AptNumber">Owner Unit/Apt</string>
+    <string name="State">Owner State</string>
+    <string name="City">Owner City</string>
+    <string name="Zip">Owner Zip</string>
+    <string name="HomePhone">Onwer Home Ph</string>
+    <string name="Email1">Owner Email 1</string>
+    <string name="Notes">Notes</string>
+    
+    <!-- Label for Building -->
+    <string name="BuildingAddressSame">Building Address Same</string>
+    <string name="ProjectHouseNumber">Bldg St No</string>
+    <string name="ProjectStreet">Bldg Street</string>
+    <string name="ProjectAptNumber">Apt No</string>
+    <string name="ProjectState">Bldg State</string>
+    <string name="ProjectCity">Bldg City</string>
+    <string name="ProjectCountry">Bldg Country</string>
+    <string name="ProjectZip">Bldg Zip</string>
+    <string name="YearBuilt">Year Built</string>
+    <string name="BaseCondArea">Cond Area</string>
+    <string name="BaseOccupants">Occupants</string>
+    <string name="BaseBedrooms">Bedrooms</string>
+    <string name="BaseShelterClass">Shelter Class</string>
+    <string name="BaseBuildingType">Bldg Type</string>
+    <string name="BaseBuildingUnits"># of Units</string>
+    <string name="BaseGarage">Garage</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

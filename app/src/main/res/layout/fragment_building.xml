@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myolin.optimisermobile.OwnerFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/BuildingAddressSame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BuildingAddressSameLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectHouseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BuildingAddressSameLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectHouseNumberLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectStreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectHouseNumberLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectStreetLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectAptNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectStreetLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectAptNumberLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectAptNumberLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectStateLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectStateLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectCityLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectCityLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectCountryLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/ProjectZip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectCountryLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/ProjectZipLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/YearBuilt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProjectZipLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/YearBuiltLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseCondArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/YearBuiltLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseCondAreaLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseOccupants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaseCondAreaLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseOccupantsLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseBedrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaseOccupantsLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseBedroomsLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseShelterClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaseBedroomsLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseShelterClassLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseBuildingType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaseShelterClassLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseBuildingTypeLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseBuildingUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaseBuildingTypeLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseBuildingUnitsLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <TextView
+            android:text="@string/BaseGarage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BaseBuildingUnitsLabel"
+            android:layout_alignStart="@+id/BuildingAddressSameLabel"
+            android:layout_marginTop="40dp"
+            android:id="@+id/BaseGarageLabel"
+            android:textSize="@dimen/standard_text_size" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/BuildingAddressSameLabel"
+            android:layout_toEndOf="@+id/BuildingAddressSameLabel"
+            android:layout_marginStart="40dp"
+            android:id="@+id/BuildingAddressSame" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/ProjectHouseNumberLabel"
+            android:layout_toEndOf="@+id/ProjectHouseNumberLabel"
+            android:layout_marginStart="60dp"
+            android:id="@+id/ProjectHouseNumber"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/ProjectStreetLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/ProjectStreet"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignBottom="@+id/ProjectAptNumberLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/ProjectAptNumber"
+            android:textSize="@dimen/standard_text_size"
+            android:background="@drawable/border" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ProjectStateLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/ProjectState"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/YearBuiltLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/YearBuilt"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/BaseCondAreaLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/BaseCondArea"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/BaseOccupantsLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/BaseOccupants"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/BaseBedroomsLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/BaseBedrooms"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+        <Spinner
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/BaseBuildingUnitsLabel"
+            android:layout_alignStart="@+id/ProjectHouseNumber"
+            android:id="@+id/BaseBuildingUnits"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:textSize="@dimen/standard_text_size" />
+
+    </RelativeLayout>
+</ScrollView>

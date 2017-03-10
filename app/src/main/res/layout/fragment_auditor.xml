@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myolin.optimisermobile.AuditorFragment">
+
+    <TextView
+        android:text="@string/AuditorInspector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/AuditorInspectorLabel"
+        android:textSize="@dimen/standard_text_size" />
+
+    <TextView
+        android:text="@string/AuditorPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AuditorInspectorLabel"
+        android:layout_alignStart="@+id/AuditorInspectorLabel"
+        android:layout_marginTop="40dp"
+        android:id="@+id/AuditorPhoneLabel"
+        android:textSize="@dimen/standard_text_size" />
+
+    <TextView
+        android:text="@string/AuditorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AuditorPhoneLabel"
+        android:layout_alignStart="@+id/AuditorInspectorLabel"
+        android:layout_marginTop="40dp"
+        android:id="@+id/AuditorEmailLabel"
+        android:textSize="@dimen/standard_text_size" />
+
+    <TextView
+        android:text="@string/ProjectID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AuditorEmailLabel"
+        android:layout_alignStart="@+id/AuditorInspectorLabel"
+        android:layout_marginTop="40dp"
+        android:id="@+id/ProjectIDLabel"
+        android:textSize="@dimen/standard_text_size" />
+
+    <TextView
+        android:text="@string/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/DateLabel"
+        android:layout_below="@+id/ProjectIDLabel"
+        android:layout_alignStart="@+id/AuditorInspectorLabel"
+        android:textSize="@dimen/standard_text_size" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignBottom="@+id/AuditorPhoneLabel"
+        android:layout_toEndOf="@+id/AuditorPhoneLabel"
+        android:layout_marginStart="60dp"
+        android:id="@+id/AuditorPhone"
+        android:textSize="@dimen/standard_text_size"
+        android:background="@drawable/border"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/AuditorEmailLabel"
+        android:layout_alignStart="@+id/AuditorPhone"
+        android:id="@+id/AuditorEmail"
+        android:textSize="@dimen/standard_text_size"
+        android:background="@drawable/border" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignBottom="@+id/ProjectIDLabel"
+        android:layout_alignStart="@id/AuditorPhone"
+        android:id="@+id/ProjectID"
+        android:textSize="@dimen/standard_text_size"
+        android:background="@drawable/border" />
+
+    <TextView
+        android:layout_width="190sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/DateLabel"
+        android:layout_alignStart="@id/AuditorPhone"
+        android:textSize="@dimen/standard_text_size"
+        android:id="@+id/Date"
+        android:background="@drawable/border"
+        android:textColor="@color/color_Black" />
+
+</RelativeLayout>
